@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Server listening on TCP port 44735
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 44735
+TCP window size: 3.76 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 37148 connected with 127.0.0.1 port 44735 (icwnd/mss/irtt=319/32741/23)
+[  1] local 127.0.0.1 port 44735 connected with 127.0.0.1 port 37148 (icwnd/mss/irtt=320/32768/19)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9746 sec  8.91 GBytes  25.7 Gbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9852 sec  8.92 GBytes  25.7 Gbits/sec

@@ -1,0 +1,27 @@
+
+=== Testing: BBR (60s) ===
+$ /home/venkat/pantheon/src/wrappers/bbr.py run_first
+$ /home/venkat/pantheon/src/wrappers/bbr.py receiver 44721
+------------------------------------------------------------
+Server listening on TCP port 44721
+TCP congestion control set to bbr
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+$ /home/venkat/pantheon/src/wrappers/bbr.py sender 127.0.0.1 44721
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 44721
+TCP congestion control set to bbr
+TCP window size: 3.76 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 33220 connected with 127.0.0.1 port 44721 (icwnd/mss/irtt=319/32741/17)
+[  1] local 127.0.0.1 port 44721 connected with 127.0.0.1 port 33220 (icwnd/mss/irtt=320/32768/12)
+kill_proc_group: killed process group with pgid 7773
+kill_proc_group: killed process group with pgid 7777
+Waiting for server threads to complete. Interrupt again to force quit.
+[✓] Metrics for bbr saved at: logs-3/metrics_bbr_1744940510.csv
+✅ All congestion control tests completed.
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-59.9877 sec   103 GBytes  14.7 Gbits/sec
+shutdown failed: Transport endpoint is not connected
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-60.0020 sec   103 GBytes  14.7 Gbits/sec

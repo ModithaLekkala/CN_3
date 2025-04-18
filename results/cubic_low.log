@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Server listening on TCP port 32893
+TCP congestion control set to cubic
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 32893
+TCP congestion control set to cubic
+TCP window size: 2.50 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 47262 connected with 127.0.0.1 port 32893 (icwnd/mss/irtt=319/32741/39)
+[  1] local 127.0.0.1 port 32893 connected with 127.0.0.1 port 47262 (icwnd/mss/irtt=320/32768/30)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9736 sec  36.5 GBytes   106 Gbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9744 sec  36.5 GBytes   105 Gbits/sec

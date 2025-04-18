@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Server listening on TCP port 32807
+TCP congestion control set to bbr
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 32807
+TCP congestion control set to bbr
+TCP window size: 3.76 MByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 33252 connected with 127.0.0.1 port 32807 (icwnd/mss/irtt=319/32741/24)
+[  1] local 127.0.0.1 port 32807 connected with 127.0.0.1 port 33252 (icwnd/mss/irtt=320/32768/71)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9753 sec  9.01 GBytes  26.0 Gbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9768 sec  9.01 GBytes  26.0 Gbits/sec

@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Server listening on TCP port 34413
+TCP window size:  128 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to 127.0.0.1, TCP port 34413
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  1] local 127.0.0.1 port 48578 connected with 127.0.0.1 port 34413 (icwnd/mss/irtt=319/32741/198)
+[  1] local 127.0.0.1 port 34413 connected with 127.0.0.1 port 48578 (icwnd/mss/irtt=320/32768/13)
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9738 sec  9.19 GBytes  26.5 Gbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  1] 0.0000-2.9768 sec  9.19 GBytes  26.5 Gbits/sec
